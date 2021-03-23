@@ -21,7 +21,11 @@
 // THE SOFTWARE.
 
 #import <objc/runtime.h>
+#if SWIFT_PACKAGE
+#import "MXScrollView.h"
+#else
 #import <MXParallaxHeader/Sources/MXScrollView.h>
+#endif
 #import "MXSegmentedPager.h"
 
 @interface MXSegmentedPager () <MXScrollViewDelegate, MXPagerViewDelegate, MXPagerViewDataSource>
