@@ -24,7 +24,8 @@
 #if SWIFT_PACKAGE
 #import "MXScrollView.h"
 #else
-#import <MXParallaxHeader/Sources/MXScrollView.h>
+#import "MXScrollView.h"
+//#import <MXParallaxHeader/Sources/MXScrollView.h>
 #endif
 #import "MXSegmentedPager.h"
 

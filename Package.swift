@@ -9,9 +9,9 @@ let package = Package(
                  targets: ["MXSegmentedPager"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Faerae-AIT/MXPagerView.git", from: "1.1.1"),
-        .package(url: "https://github.com/Faerae-AIT/MXSegmentedControl.git", from: "1.1.1"),
-        .package(url: "https://github.com/Faerae-AIT/MXParallaxHeader.git", from: "1.1.1"),
+        .package(url: "https://github.com/Faerae-AIT/MXPagerView", .branch("master")),
+        .package(url: "https://github.com/Faerae-AIT/MXSegmentedControl", .branch("master")),
+        .package(url: "https://github.com/Faerae-AIT/MXParallaxHeader", .branch("master")),
     ],
     targets: [
         .target(
